@@ -31,9 +31,9 @@
     </description>
 
     <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/sling/trunk/tooling/support/provisioning-model</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/sling/trunk/tooling/support/provisioning-model</developerConnection>
-        <url>http://svn.apache.org/viewvc/sling/trunk/tooling/support/provisioning-model</url>
+        <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-provisioning-model.git</conncetion>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-provisioning-model.git</developerConnection>
+        <url>https://gitbox.apache.org/repos/asf?p=sling-org-apache-sling-provisioning-model.git</url>
     </scm>
 
     <build>
