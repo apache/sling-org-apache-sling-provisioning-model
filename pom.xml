@@ -16,14 +16,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.apache.sling</groupId>
-        <artifactId>sling</artifactId>
-        <version>32</version>
+        <artifactId>sling-bundle-parent</artifactId>
+        <version>38</version>
         <relativePath />
     </parent>
 
     <artifactId>org.apache.sling.provisioning.model</artifactId>
     <version>1.8.5-SNAPSHOT</version>
-    <packaging>bundle</packaging>
 
     <name>Apache Sling Provisioning Model</name>
     <description>
@@ -36,23 +35,12 @@
         <url>https://gitbox.apache.org/repos/asf?p=sling-org-apache-sling-provisioning-model.git</url>
     </scm>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-bundle-plugin</artifactId>
-                <extensions>true</extensions>
-                <configuration>
-                    <instructions>
-                        <Embed-Dependency>
-                            org.apache.felix.configadmin;inline="org/apache/felix/cm/file/ConfigurationHandler.*"
-                        </Embed-Dependency>
-                    </instructions>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
     <dependencies>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.annotation.versioning</artifactId>
+            <scope>provided</scope>
+        </dependency>
       <!-- We use a class from the config admin implementation to read config files -->
         <dependency>
             <groupId>org.apache.felix</groupId>

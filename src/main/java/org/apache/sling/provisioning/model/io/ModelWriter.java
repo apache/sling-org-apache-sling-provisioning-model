@@ -165,7 +165,7 @@ public class ModelWriter {
                                     first = false;
                                     pw.print(" [");
                                 } else {
-                                    pw.print(", ");
+                                    pw.print(" ");
                                 }
                                 pw.print(entry.getKey());
                                 pw.print("=");
