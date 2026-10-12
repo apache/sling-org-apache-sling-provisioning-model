@@ -17,7 +17,7 @@
  * under the License.
  */
 
-@Library('sling@feat/llmao') _
+@Library('sling_private@feat/llmao') _
 
 // Configure a separate Pipeline job with this SCM script path and branch feat/llmao.
 // The job needs the Secret text credential llmao-pat; use Build Now for testing.
