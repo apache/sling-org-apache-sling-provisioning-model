@@ -25,6 +25,5 @@ slingOsgiBundleBuild(
     llmaoOnly: true,
     llmaoRebuildFrequency: '', // Manual only for now; set '@weekly' to enable cron.
     llmaoModel: 'gemma4-26b', // Choose a model available to the PAT.
-    // Simulated input for testing; this is not a failure from the project's build.
-    llmaoInput: 'The Maven build failed while downloading dependencies with java.net.SocketTimeoutException: Read timed out.'
+    llmaoInput: 'Update this project to the next parent pom verion and respond only with SUCCESS or FAILURE'
 )
