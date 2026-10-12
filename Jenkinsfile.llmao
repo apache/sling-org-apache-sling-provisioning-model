@@ -24,6 +24,5 @@
 slingOsgiBundleBuild(
     llmaoOnly: true,
     llmaoRebuildFrequency: '', // Manual only for now; set '@weekly' to enable cron.
-    llmaoModel: 'gemma4-26b', // Choose a model available to the PAT.
-    llmaoInput: 'Update this project to the next parent pom verion and respond only with SUCCESS or FAILURE'
+    llmaoInput: 'Update this project to the most recent released parent POM version and respond only with SUCCESS or FAILURE'
 )
